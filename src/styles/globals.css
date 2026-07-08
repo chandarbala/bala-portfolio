@@ -1,0 +1,99 @@
+.glass {
+
+  background: rgba(255,255,255,0.05);
+
+  backdrop-filter: blur(20px);
+
+  border:1px solid rgba(255,255,255,.08);
+
+  border-radius:24px;
+
+}
+
+.section{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:120px 24px;
+
+}
+
+.gradient-text{
+
+    background:linear-gradient(
+        90deg,
+        #2563EB,
+        #06B6D4,
+        #8B5CF6
+    );
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+}
+
+.glow{
+
+    box-shadow:
+    0 0 50px rgba(37,99,235,.25);
+
+}
+
+.profile-glow {
+  box-shadow:
+    0 0 20px rgba(37, 99, 235, 0.3),
+    0 0 60px rgba(139, 92, 246, 0.25);
+}
+@keyframes fadeUp {
+
+  from{
+
+    opacity:0;
+
+    transform:translateY(30px);
+
+  }
+
+  to{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+  }
+
+}
+
+.fade-up{
+
+    animation:fadeUp .9s ease forwards;
+
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+}
+
+.animate-float-delay {
+  animation: float 10s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: float 12s ease-in-out infinite;
+}
