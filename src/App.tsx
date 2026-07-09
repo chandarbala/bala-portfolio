@@ -6,6 +6,7 @@ import Projects from "./sections/Projects/Projects";
 import Github from "./sections/Github/Github";
 import Contact from "./sections/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
+import Achievements from "./sections/Achievements/Achievements";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Skills />
       <Experience />
       <Projects />
+      <Achievements />
       <Github />
       <Contact />
     </main>
