@@ -1,10 +1,11 @@
 import ContactInfoCard from "../../components/Card/ContactInfoCard";
 import { contactInfo } from "../../data/contact";
+import SectionHeader from "../../components/common/SectionHeader";
 
 export default function Contact() {
   return (
     <section id="contact" className="section">
-      <div className="text-center">
+      {/* <div className="text-center">
         <h2 className="gradient-text text-5xl font-bold">
           Contact Me
         </h2>
@@ -14,7 +15,12 @@ export default function Contact() {
           always open to discussing enterprise software, automation, and
           innovative development projects.
         </p>
-      </div>
+      </div> */}
+      <SectionHeader
+        badge="Get in Touch"
+        title="Contact Me"
+        subtitle="Interested in working together? Feel free to get in touch. I'm always open to discussing enterprise software, automation, and innovative development projects."
+      />
 
       <div className="mt-16 grid gap-10 lg:grid-cols-2">
 

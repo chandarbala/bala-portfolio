@@ -1,9 +1,16 @@
 import Card from "../../components/Card/Card";
+import SectionHeader from "../../components/common/SectionHeader";
 
 export default function About() {
   return (
     <section id="about" className="section">
 
+      <SectionHeader
+        badge="Explore"
+        title="About Me"
+        subtitle="I'm a Software Developer passionate about building enterprise applications, automation tools, and scalable data solutions. I enjoy solving real-world business problems using Python, PostgreSQL, and modern web technologies."
+      />
+{/* 
       <div className="text-center">
 
         <h2 className="gradient-text text-5xl font-bold">
@@ -18,7 +25,7 @@ export default function About() {
           architecture.
         </p>
 
-      </div>
+      </div> */}
 
       <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
 

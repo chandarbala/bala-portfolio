@@ -1,10 +1,17 @@
 import AchievementCard from "../../components/Card/AchievementCard";
 import { achievements } from "../../data/achievements";
+import SectionHeader from "../../components/common/SectionHeader";
 
 export default function Achievements() {
   return (
     <section id="achievements" className="section">
-      <div className="text-center">
+
+      <SectionHeader
+        badge="Recognitions"
+        title="Achievements"
+        subtitle="Delivering enterprise software, automation solutions, and scalable data platforms with a focus on performance and reliability."
+      />
+      {/* <div className="text-center">
         <h2 className="gradient-text text-5xl font-bold">
           Achievements
         </h2>
@@ -14,7 +21,7 @@ export default function Achievements() {
           scalable data platforms with a focus on performance and
           reliability.
         </p>
-      </div>
+      </div> */}
 
       <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         {achievements.map((item) => (

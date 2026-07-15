@@ -1,10 +1,16 @@
 import TimelineCard from "../../components/Card/TimelineCard";
 import { experiences } from "../../data/experience";
+import SectionHeader from "../../components/common/SectionHeader";
 
 export default function Experience() {
   return (
     <section id="experience" className="section">
-      <div className="text-center">
+      <SectionHeader
+        badge="Journey"
+        title="Experience"
+        subtitle="My journey in building enterprise applications, automation platforms, and data-driven solutions."
+      />
+      {/* <div className="text-center">
         <h2 className="gradient-text text-5xl font-bold">
           Experience
         </h2>
@@ -13,7 +19,7 @@ export default function Experience() {
           My journey in building enterprise applications, automation
           platforms, and data-driven solutions.
         </p>
-      </div>
+      </div> */}
 
       <div className="relative mx-auto mt-16 max-w-4xl">
         {/* Vertical Line */}
